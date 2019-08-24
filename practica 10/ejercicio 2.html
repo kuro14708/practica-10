@@ -1,0 +1,11 @@
+<script>
+let info = {}
+for (let i = 0; i < 10; i++) {
+    let documentos = parseInt(prompt("ingrese el documento de identidad") )
+    let nombre = prompt("ingrese nombre completo") 
+    info[documentos]=nombre
+}
+for (key in info) {
+    console.log(info[key]);
+}
+</script>
