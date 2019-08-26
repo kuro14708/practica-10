@@ -6,7 +6,9 @@ let continentes ={ asia : [ "Japon", "China", "corea", "birmania", "brunei" ],
                 oceania : [ "tonga", "tuvalu", "micronesia", "kiribati", "fiyi"]}
 let eleccion = prompt("ingrese el continente")
 
-console.log(continentes[eleccion])
 
+for (const key of continentes[eleccion] ) {
+    console.log(key)
+}
 
 </script>
